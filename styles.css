@@ -1,0 +1,57 @@
+body {
+    justify-content: center;
+    display: flex;
+
+}
+.instagram_post {
+    display: flex;
+    width: 408px;
+    height: 562px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+
+}
+
+.header .icon {
+    position: relative;
+    left: 290px;
+    bottom: -27px;
+}
+
+.user-name p {
+    margin: 6px 0 0px 0 ;  
+}
+.header img {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+}
+
+.post-photo img {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    padding: 1.5rem 1rem;
+}
+
+.buttons .fa-regular {
+    padding: 5px;
+}
+
+.buttons i:nth-last-of-type(1) {
+    position: relative;
+    left: 230px;
+    
+}
+
+.footer p, span {
+    margin: 10px;
+    font-size: 15px;
+}
